@@ -3,7 +3,8 @@ import React, { useEffect } from 'react';
 import { useAtom } from 'jotai';
 import { sentencesAtom, randomSentenceAtom } from '@/store/sentence';
 import RandomSentence from '@/components/RandomSentence';
-import { loadDb } from '@/model/db';
+import { loadSentences, loadWords } from '@/service/db';
+import { learnedWordsAtom } from '@/store/word';
 
 const Home: React.FC = () => {
   const [, setSentences] = useAtom(sentencesAtom);
@@ -11,8 +12,9 @@ const Home: React.FC = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const data = await loadDb();
-        setSentences(data);
+        const sentences = await loadSentences();
+        setSentences(sentences);
+
       } catch (error) {
         console.error("Failed to load sentences:", error);
         // Optionally, handle errors, e.g., by setting an error state
