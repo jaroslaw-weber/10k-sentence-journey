@@ -1,46 +1,33 @@
-"use client";
-// Import necessary libraries
+"use client"
+import React, { useEffect } from 'react';
+import { useAtom } from 'jotai';
+import { sentencesAtom, randomSentenceAtom } from '@/store/sentence';
+import RandomSentence from '@/components/RandomSentence';
+import { loadDb } from '@/model/db';
 
-import { useState, useEffect } from "react";
-import Papa from "papaparse";
-
-export default function Home() {
-  const [sentences, setSentences] = useState([]);
-  const [randomSentence, setRandomSentence] = useState(null);
+const Home: React.FC = () => {
+  const [, setSentences] = useAtom(sentencesAtom);
 
   useEffect(() => {
-    // Fetch the CSV data from the public directory
-    fetch("/sentence/korean.csv")
-      .then((response) => response.text())
-      .then((csvData) => {
-        // Parse the CSV data
-        const parsedData = Papa.parse(csvData, {
-          header: true,
-          skipEmptyLines: true,
-        }).data;
-        setSentences(parsedData);
-      });
-  }, []);
+    const fetchData = async () => {
+      try {
+        const data = await loadDb();
+        setSentences(data);
+      } catch (error) {
+        console.error("Failed to load sentences:", error);
+        // Optionally, handle errors, e.g., by setting an error state
+      }
+    };
 
-  // Function to select a random sentence
-  const showRandomSentence = () => {
-    if (sentences.length > 0) {
-      const randomIndex = Math.floor(Math.random() * sentences.length);
-      setRandomSentence(sentences[randomIndex]);
-    }
-  };
+    fetchData();
+  }, [setSentences]); // Dependency array includes setSentences to stabilize the effect
+
 
   return (
-    <>
-      <button className="btn btn-primary" onClick={showRandomSentence}>
-        Show Random Sentence
-      </button>
-      {randomSentence && (
-        <div>
-          <p>{randomSentence?.sentence_ko}</p>
-          <p>{randomSentence?.sentence_en}</p>
-        </div>
-      )}
-    </>
+    <div className='flex justify-center items-center min-h-screen'>
+      <RandomSentence />
+    </div>
   );
-}
+};
+
+export default Home;
