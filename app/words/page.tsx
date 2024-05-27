@@ -41,7 +41,7 @@ const WordList: React.FC = () => {
   return (
     <div className="flex flex-col items-center p-4">
       <h1 className="text-xl font-bold">Word Frequency List</h1>
-      <div className="stats shadow my-4">
+      <div className="stats shadow my-8">
         <div className="stat">
           <div className="stat-title">Words Learned</div>
           <div className="stat-value">{learnedCount}</div>
@@ -53,7 +53,7 @@ const WordList: React.FC = () => {
           <div className="stat-desc">Percentage of total</div>
         </div>
       </div>
-      <div className="grid grid-cols-4 gap-4 text-lg">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-lg">
         {wordList.map((word, index) => (
           <div key={index} className="flex gap-2">
             <input
