@@ -1,7 +1,7 @@
 "use client"
 import React, { useEffect } from 'react';
 import { useAtom } from 'jotai';
-import { sentencesAtom, randomSentenceAtom } from '@/store/sentence';
+import { sentencesAtom, randomSentenceAtom, rerollTriggerAtom } from '@/store/sentence';
 import RandomSentence from '@/components/RandomSentence';
 import { loadSentences, loadWords } from '@/service/db';
 import { learnedWordsAtom } from '@/store/word';

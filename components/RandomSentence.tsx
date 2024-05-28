@@ -1,6 +1,6 @@
 import React from "react";
 import { useAtom } from "jotai";
-import { randomSentenceAtom } from "../store/sentence";
+import { randomSentenceAtom, rerollTriggerAtom } from "../store/sentence";
 import { learnedWordsAtom } from "@/store/word";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faExclamationCircle } from "@fortawesome/free-solid-svg-icons";
@@ -8,6 +8,11 @@ import { faExclamationCircle } from "@fortawesome/free-solid-svg-icons";
 const RandomSentence: React.FC = () => {
   const [randomSentence] = useAtom(randomSentenceAtom);
   const [learnedWords, setLearnedWords] = useAtom(learnedWordsAtom);
+  const [, setRerollTrigger] = useAtom(rerollTriggerAtom);
+
+  const refreshSentence = () => {
+    setRerollTrigger((oldValue) => oldValue + 1);  // Increment to trigger reroll
+  };
   const word = randomSentence?.word_ko;
 
   // Toggle learned state of a word
@@ -22,12 +27,13 @@ const RandomSentence: React.FC = () => {
     <>
       {randomSentence && word && (
         <div className="text-3xl text-center">
+          <button onClick={()=>refreshSentence()}>
           <p>{randomSentence.sentence_ko}</p>
-          <p>{randomSentence.sentence_en}</p>
+          <p>{randomSentence.sentence_en}</p></button>
 
           <div className="text-lg opacity-60 mt-12 flex justify-around gap-4 ">
             <div
-              className="tooltip tooltip-top"
+              className="tooltip tooltip-bottom"
               data-tip="the word linked to this sentence. click on the checkbox if you already know this word to hide it"
             >
               <p>word</p>
@@ -36,7 +42,7 @@ const RandomSentence: React.FC = () => {
               </p>
             </div>
             <div
-              className="tooltip tooltip-top"
+              className="tooltip tooltip-bottom"
               data-tip="click on the checkbox if you already know this word to hide it"
             >
               <p>too easy?</p>
@@ -47,7 +53,7 @@ const RandomSentence: React.FC = () => {
               />
             </div>
             <div
-              className="tooltip"
+              className="tooltip tooltip-bottom"
               data-tip="click on icon to report an incorrect sentence"
             >
               <p>report</p>
