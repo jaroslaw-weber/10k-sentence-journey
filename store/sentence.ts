@@ -13,9 +13,13 @@ export const randomSentenceAtom = atom<Sentence | null | undefined>((get) => {
   const trigger = get(rerollTriggerAtom); // Include to establish a dependency
   const sentences = get(sentencesAtom);
   const learned = get(learnedWordsAtom);
+  let notLearned = sentences;
   if (learned) {
     const filtered = sentences.filter((s) => !learned[s.word_ko]);
-    return filtered.length > 0 ? sample(filtered) : null;
+    notLearned = filtered;
   }
-  return sentences.length > 0 ? sample(sentences) : null;
+  //only get max 50 sentences
+  const shortlist = notLearned.slice(0, 50);
+  const randomSentence = sample(shortlist);
+  return randomSentence;
 });

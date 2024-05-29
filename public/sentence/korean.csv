@@ -3,7 +3,6 @@ word_ko,word_en,sentence_ko,sentence_en
 하다,do,저는 공부해요.,I study.
 있다,have,저는 책이 많이 있어요.,I have many books.
 되다,become,그는 의사가 되었어요.,He has become a doctor.
-나,I,저는 학교에 가요.,I go to school.
 없다,not have,그 사람은 돈이 없어요.,That person does not have money.
 사람,person,그곳에 많은 사람들이 있어요.,There are many people there.
 우리,we,우리는 함께 가요.,We go together.
@@ -24,7 +23,6 @@ word_ko,word_en,sentence_ko,sentence_en
 받다,receive,"그녀는 생일 선물로 시계를 받았어요.","She received a watch as a birthday gift."
 그것,it,"그것을 해결하기 위해 노력하겠습니다.","I will try to solve it."
 집,home,"매일 학교에서 집으로 돌아옵니다.","I return home from school every day."
-나오다,come out,"그는 새로운 앨범을 나오다 예정입니다.","He is set to release a new album."
 그리고,and,"그녀는 똑똑하고, 그리고 매력적입니다.","She is smart, and also attractive."
 문제,problem,"이 문제를 빨리 해결해야 합니다.","We need to solve this problem quickly."
 그런,such,"그런 경우는 드물게 발생합니다.","Such cases occur rarely."
@@ -35,3 +33,403 @@ word_ko,word_en,sentence_ko,sentence_en
 만들다,make,"우리는 함께 케이크를 만들었습니다.","We made a cake together."
 데,place,"이곳은 쉬기 좋은 데 입니다.","This is a good place to rest."
 두,two,"제가 두 개의 티켓을 구매했습니다.","I bought two tickets."
+많다,many,여기에 사람이 많아요.,There are many people here.
+앞,front,그는 버스의 앞에 섰습니다.,He stood in front of the bus.
+경우,case,"그 경우에는 조심해야 합니다.","In that case, you must be careful."
+중,in,나는 친구들 중에서 가장 빠릅니다.,I am the fastest among my friends.
+어떤,some,어떤 책을 좋아하나요?,What kind of books do you like?
+잘,well,그는 축구를 잘 해요.,He plays soccer well.
+그녀,she,그녀는 매우 똑똑합니다.,She is very smart.
+오다,come,모두 여기로 오세요.,Everyone come here.
+문화,culture,한국의 문화는 매우 흥미롭습니다.,Korean culture is very interesting.
+생각,think,나는 그것이 최선이라고 생각해요.,I think that is the best.
+어떻다,be like,그 일은 어땠어요?,How was that thing?
+명,person,그곳에 세 명의 사람이 있었습니다.,There were three people there.
+통하다,communicate,우리는 매일 전화로 통해요.,We communicate by phone every day.
+그러다,become,그는 나중에 의사가 되었습니다.,He later became a doctor.
+소리,sound,그 소리는 매우 시끄러웠습니다.,That sound was very loud.
+다시,again,다시 해볼까요?,Shall we try again?
+다른,different,다른 사람들은 어떻게 생각할까요?,What do other people think?
+이런,this kind of,이런 일은 흔하지 않습니다.,This kind of thing is not common.
+여자,woman,그 여자는 우리 회사에서 일합니다.,That woman works at our company.
+정도,degree,그것은 어느 정도 사실입니다.,That is somewhat true.
+뒤,behind,나는 그녀 뒤에 서 있었습니다.,I was standing behind her.
+듣다,hear,나는 그 소식을 들었습니다.,I heard that news.
+좀,a little,좀 더 가까이 와 주세요.,Please come a little closer.
+싶다,want,나는 더 배우고 싶어요.,I want to learn more.
+함께,together,우리 함께 갑시다.,Let's go together.
+지나다,pass,시간이 빨리 지나갔습니다.,Time passed quickly.
+많이,much,그는 많이 먹습니다.,He eats a lot.
+너,you,너는 어디에서 왔니?,Where are you from?
+주다,give,그는 선물을 주었습니다.,He gave a gift.
+인간,human,인간은 사회적 동물입니다.,Humans are social animals.
+이렇다,be like this,이렇게 추운 날은 드물어요.,It is rare to be this cold.
+어머니,mother,어머니는 집에 계세요.,Mother is at home.
+의하다,according to,"법의하면, 그것은 금지되어 있습니다.","According to the law, that is prohibited."
+시대,era,조선 시대는 한국 역사에서 중요한 시대입니다.,The Joseon era is an important period in Korean history.
+다음,next,다음 주에 만납시다.,Let's meet next week.
+이러하다,be like this,이러한 문제는 복잡합니다.,Problems like this are complicated.
+누구,who,그는 누구인가요?,Who is he?
+곳,place,이곳은 아주 조용한 곳입니다.,This place is very quiet.
+여러,several,여러 가지 이유로 그는 떠났습니다.,He left for several reasons.
+세계,world,세계는 넓습니다.,The world is vast.
+운동,exercise,매일 운동하는 것이 좋습니다.,It is good to exercise daily.
+퍼센트,percent,이 학교는 학생의 70퍼센트가 여자입니다.,70 percent of the students at this school are female.
+학교,school,학교는 배움의 장소입니다.,School is a place of learning.
+대통령,president,대통령은 국가의 대표입니다.,The president represents the country.
+시작하다,start,저는 새로운 취미를 시작했습니다.,I started a new hobby.
+바로,immediately,바로 그곳에 가세요.,Go there immediately.
+어느,which,어느 것을 선호하세요?,Which do you prefer?
+무엇,what,무엇을 도와드릴까요?,What can I help you with?
+정부,government,정부는 많은 문제를 해결해야 합니다.,The government needs to solve many problems.
+모든,all,모든 학생이 시험을 봤습니다.,All the students took the exam.
+나,I,나는 학교에 갑니다.,I go to school.
+나오다,come out,영화가 곧 나옵니다.,The movie will come out soon.
+번,time,이번에는 더 잘할게요.,"This time, I will do better."
+그거,that,그거 좀 가져다 줄래요?,Can you bring that over?
+돈,money,돈을 조금 저축했어요.,I saved a little money.
+국가,country,그 국가는 평화롭습니다.,That country is peaceful.
+그런데,but,"그런데, 문제가 생겼어요.","But, there was a problem."
+날,day,그 날은 정말 추웠어요.,That day was very cold.
+여기,here,여기에 앉으세요.,Please sit here.
+여성,woman,여성 권리가 중요합니다.,Women's rights are important.
+친구,friend,친구와 영화를 봤어요.,I watched a movie with a friend.
+마음,heart,마음이 아프네요.,My heart hurts.
+후,after,수업 후에 만나요.,Let's meet after class.
+가다,go,학교에 가요.,I go to school.
+관계,relationship,그들의 관계는 복잡해요.,Their relationship is complicated.
+아버지,father,아버지가 요리하실 거예요.,My father will cook.
+남자,man,그 남자는 친절해요.,That man is kind.
+몸,body,몸을 건강하게 유지하세요.,Keep your body healthy.
+얼굴,face,그의 얼굴이 붉어졌어요.,His face turned red.
+들어가다,enter,방에 들어갔어요.,I entered the room.
+왜,why,왜 그랬는지 모르겠어요.,I don't know why that happened.
+나타나다,appear,갑자기 나타났어요.,He appeared suddenly.
+지역,area,이 지역은 조용합니다.,This area is quiet.
+다르다,different,그것은 조금 다릅니다.,That is a bit different.
+모습,appearance,그의 모습이 달라졌어요.,His appearance has changed.
+물,water,물을 많이 마셔야 해요.,You need to drink a lot of water.
+만나다,meet,친구를 만났어요.,I met a friend.
+보이다,seem,그는 행복해 보여요.,He seems happy.
+이것,this,이것 좀 봐요.,Look at this.
+없이,without,없이는 살 수 없어요.,I can't live without it.
+이번,this time,이번 주말에 뭐 할 건가요?,What are you doing this weekend?
+길,road,길을 건너야 해요.,You have to cross the road.
+생활,live,그는 여기서 생활해요.,He lives here.
+뿐,only,그것밖에 없습니다.,That's the only thing there is.
+사이,between,우리 사이에 문제가 있어요.,There is a problem between us.
+방법,method,새로운 방법을 시도해 봅시다.,Let's try a new method.
+새롭다,new,새롭게 시작합시다.,Let's start anew.
+우리나라,our country,우리나라는 아름답습니다.,Our country is beautiful.
+내다,put out,쓰레기를 밖에 내다 놓았어요.,I put the trash out.
+앉다,sit,여기에 앉아도 될까요?,Can I sit here?
+처음,first,처음 만났을 때부터 좋아했어요.,I liked you from the first time we met.
+손,hand,손을 깨끗이 씻어요.,Wash your hands thoroughly.
+그때,then,그때는 모르겠어요.,I don't know about then.
+삶,life,삶이 힘들 때도 있어요.,Life can be hard sometimes.
+찾다,find,키를 찾았어요.,I found the keys.
+특히,especially,특히 조심해야 해요.,You need to be especially careful.
+지금,now,지금은 바쁘지 않아요.,I am not busy right now.
+이야기,story,그녀의 이야기를 들어보세요.,Listen to her story.
+교육,education,교육은 중요합니다.,Education is important.
+사다,buy,선물을 사러 갔어요.,I went to buy a gift.
+경제,economy,우리나라 경제는 점점 좋아지고 있어요.,Our country's economy is improving.
+아직,still,그는 아직 집에 도착하지 않았어요.,He still hasn't arrived home.
+잡다,grab,그녀는 손을 뻗어 공을 잡았어요.,She reached out and grabbed the ball.
+같이,together,우리 같이 영화를 보러 갈까요?,Shall we go to see a movie together?
+선생님,teacher,선생님께서는 학생들을 가르치세요.,The teacher teaches the students.
+예술,art,그 그림은 진정한 예술작품이에요.,That painting is a true work of art.
+서다,stand,저는 문 앞에서 기다리고 서 있어요.,I am standing and waiting by the door.
+역사,history,그 장소는 오래된 역사를 가지고 있어요.,That place has a long history.
+읽다,read,어제 밤에 그 책을 읽었어요.,I read that book last night.
+결과,result,실험 결과는 놀라웠어요.,The experiment results were surprising.
+내용,content,이 책의 내용이 흥미로워요.,The content of this book is interesting.
+동앛,during,동안에 많은 일이 일어났어요.,Many things happened during that time.
+책,book,이 책은 아주 재미있어요.,This book is very interesting.
+일어나다,happen,어제 밤에 사고가 일어났어요.,An accident happened last night.
+당신,you,당신의 의견이 궁금해요.,I am curious about your opinion.
+넣다,put,그녀는 서랍에 편지를 넣었어요.,She put the letter in the drawer.
+중요하다,important,이 문제는 매우 중요해요.,This issue is very important.
+무슨,what,무슨 일이 일어났는지 알아요?,Do you know what happened?
+느끼다,feel,저는 종종 외로움을 느껴요.,I often feel lonely.
+어렵다,difficult,이 문제는 해결하기 어려워요.,This problem is difficult to solve.
+힘,strength,그는 힘을 모아 큰 돌을 들었어요.,He gathered his strength and lifted the big stone.
+너무,too,그 영화는 너무 슬퍼요.,That movie is too sad.
+나라,country,우리 나라는 아름다운 자연을 가지고 있어요.,Our country has beautiful nature.
+의미,meaning,이 단어의 의미를 알고 싶어요.,I want to know the meaning of this word.
+밝히다,reveal,경찰은 범인의 신원을 밝혔어요.,The police revealed the identity of the criminal.
+이미,already,그 일은 이미 해결되었어요.,That matter has already been resolved.
+정치,politics,그는 정치에 관심이 많아요.,He is very interested in politics.
+국민,people,국민 모두가 투표에 참여했어요.,All the people participated in the vote.
+생명,life,우리는 모든 생명을 존중해야 해요.,We must respect all life.
+얘기,talk,저희는 중요한 문제에 대해 얘기했어요.,We talked about important issues.
+학생,student,학생들은 열심히 공부하고 있어요.,The students are studying hard.
+연구,research,그녀는 새로운 치료법을 연구해요.,She researches new treatments.
+엄마,mother,엄마는 맛있는 음식을 만들어요.,Mother makes delicious food.
+이름,name,그의 이름을 잊어버렸어요.,I forgot his name.
+하나,one,하나의 작은 행동이 큰 차이를 만들어요.,One small action can make a big difference.
+내리다,descend,그녀는 계단을 천천히 내렸어요.,She slowly descended the stairs.
+사건,incident,그 사건은 모두를 놀라게 했어요.,The incident surprised everyone.
+및,and,이 프로젝트는 시간 및 자원이 많이 필요해요.,This project requires a lot of time and resources.
+쉽다,easy,이 문제를 푸는 것은 쉬워요.,Solving this problem is easy.
+짓다,build,우리는 새 집을 짓고 있어요.,We are building a new house.
+또한,also,그는 또한 좋은 작가예요.,He is also a good writer.
+이유,reason,그녀가 떠난 이유를 알아요?,Do you know the reason she left?
+또는,or,커피 또는 차를 드릴까요?,Would you like coffee or tea?
+필요하다,need,우리는 더 많은 정보가 필요해요.,We need more information.
+글,article,이 글은 매우 정보적이에요.,This article is very informative.
+생기다,occur,문제가 갑자기 생겼어요.,A problem suddenly occurred.
+사용하다,use,그녀는 컴퓨터를 자주 사용해요.,She often uses the computer.
+남편,husband,그녀의 남편은 의사예요.,Her husband is a doctor.
+들어오다,enter,새로운 선생님이 교실에 들어왔어요.,A new teacher entered the classroom.
+밖,outside,밖은 매우 추워요.,It is very cold outside.
+동안,during,시험 동안 그는 긴장했다.,He was nervous during the exam.
+세상,world,세상은 아름답다.,The world is beautiful.
+작다,small,그녀의 집은 작다.,Her house is small.
+대학,university,그는 서울 대학에 다닌다.,He goes to a university in Seoul.
+작품,work,이 작품은 유명하다.,This work is famous.
+상황,situation,상황이 나빠지고 있다.,The situation is getting worse.
+가운데,in the middle,방 가운데에 의자가 있다.,There is a chair in the middle of the room.
+보내다,send,나는 친구에게 편지를 보냈다.,I sent a letter to my friend.
+즉,that is,"즉, 이것은 우리의 기회다.","That is, this is our chance."
+따라서,therefore,"그는 늦었고, 따라서 벌금을 냈다.","He was late, therefore he paid a fine."
+상태,state,그의 건강 상태는 좋지 않다.,His health state is not good.
+이후,after,그 사건 이후 모든 것이 변했다.,Everything changed after that event.
+당시,at that time,당시에는 그런 기술이 없었다.,"At that time, there was no such technology."
+문학,literature,그는 문학을 전공했다.,He majored in literature.
+더욱,more,그녀는 더욱 강해졌다.,She became even more strong.
+아주,very,그는 아주 똑똑하다.,He is very smart.
+높다,high,이 산은 높다.,This mountain is high.
+최근,recently,최근에 그는 많이 변했다.,He has changed a lot recently.
+현실,reality,현실은 종종 힘들다.,Reality is often difficult.
+환경,environment,환경 보호는 중요하다.,Protecting the environment is important.
+컴퓨터,computer,그녀는 컴퓨터를 자주 사용한다.,She often uses the computer.
+먼저,first,먼저 문제를 해결해야 한다.,We must first solve the problem.
+다니다,attend,그는 학교를 다닌다.,He attends school.
+얼마나,how much,얼마나 오래 걸렸나요?,How much time did it take?
+자체,itself,이 기술 자체가 혁명적이다.,The technology itself is revolutionary.
+열다,open,그녀는 창문을 열었다.,She opened the window.
+머리,head,그는 머리가 좋다.,He has a good head.
+남다,remain,음식이 조금 남았다.,Some food remains.
+부분,part,이 부분을 잘 들어라.,Listen carefully to this part.
+기업,company,그 기업은 성장하고 있다.,The company is growing.
+거기,there,거기에 누가 있나요?,Is there anyone there?
+변화,change,세상은 계속 변화한다.,The world keeps changing.
+아들,son,그의 아들은 학생이다.,His son is a student.
+뜻,meaning,그 말의 뜻을 알고 있나요?,Do you know the meaning of that word?
+아,oh,"아, 이해했습니다.","Oh, I understand now."
+기다리다,wait,우리는 버스를 기다리다.,We are waiting for the bus.
+떨어지다,fall,나뭇잎이 떨어지고 있다.,The leaves are falling.
+선거,election,선거 결과를 기다린다.,Waiting for the election results.
+관하다,regarding,그 문제에 관하여 논의하다.,Discussing the issue regarding that.
+그냥,just,그냥 집에 있고 싶다.,I just want to stay home.
+나누다,share,우리는 음식을 나누었다.,We shared the food.
+이용하다,use,인터넷을 자주 이용한다.,I often use the internet.
+거의,almost,거의 다 왔다.,We're almost there.
+곧,soon,곧 여행을 갈 것이다.,I will go on a trip soon.
+중심,center,도시의 중심에 가다.,Going to the city center.
+활동,activity,그는 활동적인 사람이다.,He is an active person.
+관심,interest,그는 음악에 관심이 많다.,He has a lot of interest in music.
+역시,as expected,역시 그는 늦었다.,"As expected, he was late."
+이거,this,이거 좀 봐주세요.,Please look at this.
+광고,advertisement,TV에서 광고를 봤다.,I saw an advertisement on TV.
+나다,become,저는 선생님이 되고 싶어요.,I want to become a teacher.
+방,room,제 방은 매우 깨끗해요.,My room is very clean.
+정신,mind,그녀는 정신을 집중했어요.,She focused her mind.
+땅,land,우리는 땅을 사기로 했어요.,We decided to buy some land.
+이루다,achieve,그는 꿈을 이루었어요.,He achieved his dream.
+아침,morning,아침에 커피를 마셔요.,I drink coffee in the morning.
+웃다,laugh,"그는 크게 웃었어요.",He laughed loudly.
+현상,phenomenon,이 현상은 흔하지 않아요.,This phenomenon is not common.
+두다,put,책을 탁자 위에 두세요.,Put the book on the table.
+떠나다,leave,우리는 내일 떠날 거예요.,We will leave tomorrow.
+기술,technology,기술이 발전하고 있어요.,Technology is advancing.
+전체,whole,전체 이야기를 들려줘요.,Tell me the whole story.
+얻다,gain,그는 경험을 얻었어요.,He gained experience.
+아름답다,beautiful,그녀는 정말 아름답습니다.,She is truly beautiful.
+끝,end,영화는 끝났어요.,The movie has ended.
+민족,nation,우리 민족은 강합니다.,Our nation is strong.
+조사,investigation,경찰이 조사를 시작했어요.,The police started an investigation.
+듯,like,그녀는 천사 같아요.,She is like an angel.
+입,mouth,그의 입은 크게 벌어졌어요.,His mouth opened wide.
+뭐,what,뭐가 문제인가요?,What is the problem?
+그대로,as is,모든 것이 그대로 있어요.,Everything is as it is.
+영화,movie,영화를 같이 볼래요?,Shall we watch a movie together?
+필요,need,나는 도움이 필요해요.,I need help.
+하늘,sky,하늘은 맑게 갠거야.,The sky is clear.
+년대,decade,1990년대 음악이 좋아요.,I like music from the 1990s.
+과학,science,과학은 중요합니다.,Science is important.
+듯하다,seem,그는 행복한 듯했어요.,He seemed happy.
+자연,nature,자연은 아름답습니다.,Nature is beautiful.
+구조,structure,건물 구조가 튼튼해요.,The building structure is solid.
+결국,eventually,결국 모든 것이 해결됐어요.,"Eventually, everything was resolved."
+밥,meal,밥을 함께 먹을까요?,Shall we have a meal together?
+입다,wear,그녀는 드레스를 입었어요.,She wore a dress.
+오히려,rather,그는 오히려 기뻐 보였어요.,He looked rather happy.
+프로그램,program,새 프로그램을 시작했어요.,We started a new program.
+이루어지다,be accomplished,모든 계획이 이루어졌어요.,All plans have been accomplished.
+하루,day,하루 종일 일했어요.,I worked all day.
+그림,painting,그림 전시회를 봤어요.,I saw a painting exhibition.
+마시다,drink,저녁에 와인을 마셨어요.,I drank wine in the evening.
+혼자,alone,저는 혼자 살아요.,I live alone.
+나가다,go out,밖으로 나가서 산책했어요.,I went out for a walk.
+이제,now,이제 시작할 시간이에요.,Now it's time to start.
+교수,professor,교수님과 이야기했어요.,I talked with the professor.
+사랑,love,사랑은 아름답습니다.,Love is beautiful.
+전화,call,전화로 연락했어요.,I contacted by phone.
+끝나다,end,수업이 끝났어요.,The class has ended.
+돌아오다,return,그녀는 집에 돌아왔어요.,She returned home.
+아빠,dad,아빠와 함께 시간을 보냈어요.,I spent time with dad.
+걸리다,take,"이 일은 시간이 걸릴 거예요.",This job will take time.
+지키다,protect,우리는 약속을 지켰어요.,We kept our promise.
+한번,once,한번 해보세요.,Try it once.
+커피,coffee,저는 아침에 커피를 마셔요.,I drink coffee in the morning.
+가슴,chest,그녀는 가슴이 아프다고 말했어요.,She said her chest hurts.
+길다,long,이 영화는 너무 길다고 생각해요.,I think this movie is too long.
+바라보다,look at,그는 멀리 바라보고 있어요.,He is looking far away.
+알아보다,find out,우리는 그 사실을 알아봐야 해요.,We need to find out that fact.
+회사,company,그는 새 회사에 다니기 시작했어요.,He started working at a new company.
+맛,taste,이 음식의 맛은 정말 좋아요.,The taste of this food is really good.
+대부분,most,대부분의 사람들이 동의해요.,Most people agree.
+산업,industry,그 산업은 매우 빠르게 성장하고 있어요.,That industry is growing very fast.
+매우,very,그는 매우 똑똑한 사람이에요.,He is a very smart person.
+오르다,climb,그들은 산을 오르기 시작했어요.,They started to climb the mountain.
+음식,food,이 음식은 건강에 좋아요.,This food is good for health.
+표정,expression,그의 표정이 슬퍼 보여요.,His expression looks sad.
+일부,part,이 문제의 일부를 이해해요.,I understand part of the problem.
+요즘,these days,요즘 많은 사람들이 집에 있어요.,These days, many people stay at home.
+계획,plan,우리는 여행 계획을 세웠어요.,We made a travel plan.
+느낌,feeling,나는 이상한 느낌이 들어요.,I have a strange feeling.
+얼마,how much,이것은 얼마인가요?,How much is this?
+성격,personality,그의 성격은 매우 친절해요.,His personality is very kind.
+계속,continue,우리는 계속해서 노력해야 해요.,We need to continue trying.
+세기,century,이건 20세기의 발명품이에요.,This is an invention of the 20th century.
+세우다,set up,우리는 텐트를 세웠어요.,We set up the tent.
+아내,wife,그의 아내는 매우 친절해요.,His wife is very kind.
+가족,family,저는 가족과 함께 시간을 보내요.,I spend time with my family.
+놓다,put,그는 책을 탁자 위에 놓았어요.,He put the book on the table.
+놀다,play,아이들은 밖에서 놀고 있어요.,The kids are playing outside.
+향하다,head to,우리는 해변으로 향했어요.,We headed to the beach.
+관련,related,이 책은 과학에 관련된 내용이에요.,This book contains science-related content.
+형태,form,이 문장은 올바른 형태가 아니에요.,This sentence is not in the correct form.
+각,each,각 학생은 책을 한 권씩 받았어요.,Each student received one book.
+도시,city,이 도시는 매우 크고 번잡해요.,This city is very large and busy.
+작업,work,그는 중요한 작업을 하고 있어요.,He is doing important work.
+분위기,atmosphere,파티의 분위기가 좋았어요.,The party atmosphere was good.
+그러하다,be so,그것이 사실이라면 그러하다고 해요.,"If that is true, so be it."
+자기,self,자기 관리는 중요해요.,Self-management is important.
+나이,age,그의 나이는 30세가 넘었어요.,He is over the age of 30.
+우선,priority,우선 순위를 정해야 해요.,We need to set a priority.
+믿다,believe,저는 그의 말을 믿어요.,I believe what he says.
+바꾸다,change,그는 생각을 바꾸었어요.,He changed his mind.
+낳다,give birth,그녀는 아기를 낳았어요.,She gave birth to a baby.
+정보,information,이 정보는 유용할 거예요.,This information will be useful.
+좋아하다,like,저는 그림 그리기를 좋아해요.,I like drawing pictures.
+그리다,draw,그는 아름다운 풍경을 그렸어요.,He drew a beautiful landscape.
+만큼,as much as,저는 그만큼 빨리 달릴 수 없어요.,I can't run as fast as that.
+배우다,learn,우리는 새로운 기술을 배웠어요.,We learned a new skill.
+역할,role,그녀는 중요한 역할을 맡았어요.,She took on an important role.
+옆,side,그는 내 옆에 앉았어요.,He sat next to me.
+행동,act,그의 행동은 예상치 못했어요.,His act was unexpected.
+어,um,"어, 그게 뭐죠?","Um, what is that?"
+국내,domestic,국내 여행은 편안해요.,Domestic travel is comfortable.
+비하다,disparage,그는 다른 사람을 비하하지 않아요.,He does not disparage others.
+기관,institution,이 기관은 오래된 역사를 가지고 있어요.,This institution has a long history.
+입장,position,그의 입장은 명확하게 전달되었어요.,His position was clearly conveyed.
+만하다,worthy,"이 영화는 볼 만해요.","This movie is worth watching."
+아래,below,문서는 서랍 아래에 있어요.,The document is below the drawer.
+방식,method,새로운 방식으로 문제를 해결했어요.,He solved the problem with a new method.
+영향,influence,이 사건은 큰 영향을 끼쳤어요.,This event had a big influence.
+나서다,step forward,그녀는 자원해서 나섰어요.,She volunteered to step forward.
+흐르다,flow,강물은 조용히 흘러요.,The river flows quietly.
+깊다,deep,"이 강은 깊어요, 조심해야 해요.","This river is deep, be careful."
+내,my,내 생각은 다를 수 있어요.,My thoughts may be different.
+산,mountain,우리는 산을 등반할 거예요.,We will climb the mountain.
+하지만,however,"나는 가고 싶지만, 시간이 없어요.","I want to go, however, I don't have the time."
+조건,condition,그 조건은 수용하기 어려워요.,That condition is hard to accept.
+문,door,문을 조용히 닫아 주세요.,Please close the door quietly.
+꽃,flower,꽃은 봄에 피어요.,Flowers bloom in the spring.
+단계,stage,프로젝트는 다음 단계로 넘어갔어요.,The project moved to the next stage.
+올리다,raise,그는 손을 올렸어요.,He raised his hand.
+그동안,meanwhile,"그동안, 그는 많이 변했어요.","Meanwhile, he has changed a lot."
+교사,teacher,교사는 학생들을 가르쳐요.,The teacher instructs the students.
+갑자기,suddenly,그는 갑자기 일어났어요.,He suddenly stood up.
+넘다,exceed,온도가 30도를 넘었어요.,The temperature exceeded 30 degrees.
+지니다,possess,그녀는 특별한 기술을 지녔어요.,She possesses special skills.
+잘하다,do well,그는 수학을 정말 잘해요.,He does really well in math.
+마을,village,이 마을은 조용하고 평화로워요.,This village is quiet and peaceful.
+대표,representative,그는 회사를 대표해요.,He represents the company.
+가능성,possibility,가능성을 고려해 봐야 해요.,We must consider the possibility.
+방향,direction,그녀는 반대 방향으로 갔어요.,She went in the opposite direction.
+대회,competition,그는 대회에서 우승했어요.,He won the competition.
+목소리,voice,그의 목소리는 매우 크요.,His voice is very loud.
+노래,song,노래는 매우 감동적이었어요.,The song was very moving.
+바다,sea,바다는 넓고 깊어요.,The sea is wide and deep.
+힘들다,difficult,이 일은 매우 힘들어요.,This job is very difficult.
+공부,study,그녀는 열심히 공부하고 있어요.,She studies hard.
+움직이다,move,그는 조심스럽게 움직였어요.,He moved carefully.
+의원,member,의원은 중요한 결정을 내렸어요.,The member made an important decision.
+노력,effort,그의 노력은 인정받아야 해요.,His effort should be recognized.
+전혀,not at all,"전혀 문제가 되지 않아요.","It is not a problem at all."
+언니,older sister,언니는 항상 나를 도와요.,My older sister always helps me.
+단체,organization,단체는 지역 사회를 지원해요.,The organization supports the community.
+분,minute,다섯 분만 기다려 주세요.,Please wait just five minutes.
+알려지다,become known,이 사실은 널리 알려졌어요.,This fact has become widely known.
+가능하다,be possible,이 방법으로는 가능할 것 같아요.,It seems possible with this method.
+능력,ability,그녀는 탁월한 능력을 가졌어요.,She has excellent abilities.
+주장하다,assert,"그는 자신의 주장을 강하게 했어요.","He strongly asserted his claim."
+자식,child,자식을 위해 최선을 다해요.,Parents do their best for their children.
+돌리다,turn,그녀는 머리를 돌려서 나를 봤어요.,She turned her head to look at me.
+불,fire,불은 빠르게 번져요.,The fire spreads quickly.
+주민,resident,주민들은 회의에 참석했어요.,Residents attended the meeting.
+모으다,gather,그들은 시위를 위해 모였어요.,They gathered for the protest.
+자료,data,이 자료를 확인하세요.,Please check this data.
+존재,existence,그 존재는 미스테리예요.,That existence is a mystery.
+학년,grade,그녀는 이제 3학년입니다.,She is now in the 3rd grade.
+신문,newspaper,매일 아침 신문을 읽어요.,I read the newspaper every morning.
+가지다,have,우리는 시간이 많이 있어요.,We have a lot of time.
+이해하다,understand,"이 문제를 이해하다 어려워요.","It's hard to understand this issue."
+제품,product,새로운 제품을 출시했어요.,A new product has been launched.
+분야,field,그는 의학 분야에서 일해요.,He works in the medical field.
+선생,teacher,우리 선생님은 친절해요.,Our teacher is kind.
+돌아가다,return,그는 어제 집으로 돌아갔어요.,He returned home yesterday.
+사업,business,그들은 사업을 확장하고 있어요.,They are expanding their business.
+행위,act,그 행위는 용납할 수 없어요.,That act is unacceptable.
+수준,level,그 책의 난이도는 수준이 높아요.,The book's difficulty level is high.
+지난해,last year,지난해 여행을 많이 했어요.,I traveled a lot last year.
+표현,expression,"그녀의 얼굴 표현은 슬퍼 보였어요.","Her facial expression looked sad."
+기분,feeling,오늘 기분이 좋지 않아요.,I'm not feeling well today.
+젊다,young,그는 여전히 젊어 보여요.,He still looks young.
+동시,simultaneously,우리는 동시에 도착했어요.,We arrived simultaneously.
+옷,clothes,새 옷을 구입했어요.,I bought new clothes.
+순간,moment,그 순간을 잊을 수 없어요.,I can't forget that moment.
+전쟁,war,전쟁은 많은 것을 파괴했어요.,The war destroyed a lot.
+꿈,dream,그는 이상한 꿈을 꿨어요.,He had a strange dream.
+할머니,grandmother,할머니는 항상 우리를 사랑해요.,Grandmother always loves us.
+방송,broadcast,그 방송은 인기가 많아요.,That broadcast is very popular.
+이야기하다,talk,우리는 자주 이야기해요.,We talk often.
+나무,tree,그 나무는 매우 오래되었어요.,That tree is very old.
+자다,sleep,저는 충분히 자지 못했어요.,I didn't sleep enough.
+연극,play,우리는 연극을 보러 갔어요.,We went to see a play.
+오늘,today,오늘은 정말 바쁘네요.,Today is really busy.
+마찬가지,likewise,그녀도 마찬가지로 생각해요.,She thinks likewise.
+노동,labor,노동은 보람이 있어요.,Labor is rewarding.
+이때,at this time,이때 그는 도착했어요.,"At this time, he arrived."
+가치,value,이 경험은 큰 가치가 있어요.,This experience has great value.
+시간,time,"시간이 빠르게 지나가요.","Time passes quickly."
+집단,group,그 집단은 잘 조직되어 있어요.,The group is well organized.
+현대,modern,현대 기술은 놀랍습니다.,Modern technology is amazing.
+살펴보다,examine,우리는 문제를 살펴봤어요.,We examined the issue.
+장관,minister,장관은 오늘 연설을 했어요.,The minister gave a speech today.
+차이,difference,"이 두 개체 사이에는 큰 차이가 있어요.","There is a big difference between these two objects."
+풀다,solve,우리는 그 문제를 풀었어요.,We solved that problem.
+시절,times,그 시절은 정말 행복했어요.,Those times were really happy.
+물건,thing,그 물건을 어디에 두었나요?,Where did you put that thing?
+개인,individual,각 개인은 독특해요.,Each individual is unique.
+근데,but,"근데, 왜 그렇게 생각해요?","But, why do you think so?"
+발,foot,그녀는 발을 다쳤어요.,She injured her foot.
+작가,author,그 작가는 많은 책을 썼어요.,The author has written many books.
+효과,effect,그 약은 효과가 있어요.,The medicine is effective.
+불교,Buddhism,불교는 아시아에서 유래했어요.,Buddhism originated in Asia.
+끌다,attract,그 공연은 관객을 많이 끌었어요.,The performance attracted many spectators.
+대로,as,"계획대로 일이 진행되고 있어요.","Things are progressing as planned."

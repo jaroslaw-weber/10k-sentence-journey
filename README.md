@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 10k Sentence Journey
 
-## Getting Started
+Welcome to the 10k SentenceJourney! This tool is designed to help users learn Korean by reading through sentences in a structured manner. It uses a frequency-based approach to help learners progressively understand and memorize words in context.
 
-First, run the development server:
+## Get Started
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+To get started, go to:
+https://jaroslaw-weber.github.io/10k-sentence-journey/
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## How It Works
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The application presents users with Korean sentences featuring a range of vocabulary. These sentences are selected based on frequency to ensure learners encounter common words more often, aiding in quicker and more effective language acquisition.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Key Features
 
-## Learn More
+- **Progressive Learning:** Begin with simpler and more frequent words, gradually introducing more complex vocabulary.
+- **Tracking Progress:** Users can mark words they have learned, which hides them from future sentences to focus on unlearned vocabulary.
+- **Randomized Sentence Presentation:** Offers a varied learning experience with each use to enhance retention and engagement.
 
-To learn more about Next.js, take a look at the following resources:
+## Frequency List
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The vocabulary used in the sentences is derived from the following frequency list:
+[Wiktionary Korean 5800](https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists/Korean_5800)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Contribute
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is open source and we actively welcome contributions from the community! Whether you want to fix bugs, propose features, or improve documentation, your help is invaluable.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## License
+
+This project is released under the MIT License. See the LICENSE file for more details.
+
+## Contact
+
+For questions, suggestions, or connections, please visit our [GitHub repository](https://github.com/jaroslaw-weber/10k-sentence-journey) and feel free to create an issue or submit a pull request.
